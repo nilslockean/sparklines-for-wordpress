@@ -28,4 +28,4 @@ The sparkline charts can be displayed in any of the following types:
 ## The font
 AtF Spark is a font that allows for the combination of text and visual data to show an idea and evidence in one headline. This builds on the principle of Sparklines defined by Edward Tufte and makes them easier to use. Sparklines are currently available as plugins or javascript elements. By installing the Spark font you can use them immediately without the need for custom code.
 
-The font is maintained by **After the flood**. [Read more about the font on their website](http://aftertheflood.co/projects/atf-spark).
+The font is maintained by **After the flood**. [Read more about AtF Spark here](http://aftertheflood.co/projects/atf-spark).
