@@ -19,8 +19,8 @@ The basic shortcode format is (with default vaules):
 ## Types of Charts
 The sparkline charts can be displayed in any of the following types:
 
-- bar-medium ![Medium Bar Sparkline](./img/bar-medium.png)
-- bar-narrow
-- bar-thin ![Thin Bar Sparkline](./img/bar-thin.png)
-- dot-medium
-- dot-small
+- **Medium Bar** (`bar-medium`): ![Medium Bar Sparkline](./img/bar-medium.png)
+- **Narrow Bar** (`bar-narrow`): ![Narrow Bar Sparkline](./img/bar-narrow.png)
+- **Thin Bar** (`bar-thin`): ![Thin Bar Sparkline](./img/bar-thin.png)
+- **Medium Dot** (`dot-medium`): ![Medium Dot Sparkline](./img/dot-medium.png)
+- **Small Dot** (`dot-small`): ![Small Dot Sparkline](./img/dot-small.png)
