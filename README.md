@@ -29,8 +29,8 @@ The sparkline charts can be displayed in any of the following types:
 - **Thin Bar** (`bar-thin`): ![Thin Bar Sparkline](./img/bar-thin.png)
 - **Medium Dot** (`dot-medium`): ![Medium Dot Sparkline](./img/dot-medium.png)
 - **Small Dot** (`dot-small`): ![Small Dot Sparkline](./img/dot-small.png)
-- **Medium Line** (`line-medium`): ![Medium Dot Line](.img/line-medium.png)  
-_Only supports values 0-9_
+- **Medium Line** (`line-medium`): ![Medium Dot Line](./img/line-medium.png)  
+_Only supports values 0-9._
 
 ## The font
 AtF Spark is a font that allows for the combination of text and visual data to show an idea and evidence in one headline. This builds on the principle of Sparklines defined by Edward Tufte and makes them easier to use. Sparklines are currently available as plugins or javascript elements. By installing the Spark font you can use them immediately without the need for custom code.
