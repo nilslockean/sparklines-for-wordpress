@@ -16,9 +16,9 @@ function atf_spark_shortcode( $atts ) {
 	// Attributes
 	$atts = shortcode_atts(
 		array(
-			'start' => '10',
-      'data' => '12,14,16,18',
-			'end' => '20',
+			'start' => '123',
+      'data' => '10,20,30,40,50,60,70,80,90,100',
+			'end' => '789',
       'type' => 'bar-medium',
 		),
 		$atts,
