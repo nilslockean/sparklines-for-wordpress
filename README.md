@@ -12,15 +12,15 @@ The basic shortcode format is (with default vaules):
 | Name | Default | Description |
 | --- | --- | --- |
 | `start` | 10 | The starting point. Will be displayed before the chart. |
-| `data` | 12,14,16,18 | Data points to be rendered inside the graph. Anything that isn't a number will be filtered out (strings, spaces etc.). |
+| `data` | 12,14,16,18 | <div>Data points to be rendered inside the graph. <br>Anything that isn't a number will be filtered out (strings, spaces etc.).</div> |
 | `end` | 20 | The ending point. Will be displayed after the chart. |
-| `type` | bar-medium | Type of chart. <ul><li>bar-medium</li><li>bar-narrow</li><li>bar-thin</li><li>dot-medium</li><li>dot-small</li></ul> |
+| `type` | bar-medium | Type of chart to be used. See available fonts below. |
 
 ## Types of Charts
 The sparkline charts can be displayed in any of the following types:
 
-- bar-medium ![Medium Bar Sparkline](./img/bar-medium.png "Title")
+- bar-medium ![Medium Bar Sparkline](./img/bar-medium.png)
 - bar-narrow
-- bar-thin
+- bar-thin ![Thin Bar Sparkline](./img/bar-thin.png)
 - dot-medium
 - dot-small
