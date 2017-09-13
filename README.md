@@ -1,6 +1,11 @@
 # Sparklines for WordPress
 Sparklines is a WordPress Plugin to enable inline charts powered by the Spark font by After the Flood.
 
+## Installation
+Download the ZIP using the green button on this page and go to _Plugins_ > _Add New_ > _Upload Plugin_ in your WordPress admin panel. Upload the ZIP file and you're good to go!
+
+The plugin will soon be available in the official plugin repository. Hopefully. :)
+
 ## Using the shortcode
 The plugin provides you with a `[spark]` shortcode that takes some input and
 generates the appropriate HTML and enqueues the stylesheet.
