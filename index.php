@@ -26,7 +26,7 @@ function atf_spark_shortcode( $atts ) {
 	);
 
   // Filter data
-  $noSpaces = str_replace(" ", "", $atts['start']);
+  $noSpaces = str_replace(" ", "", $atts['data']);
   $allValues = explode(",", $noSpaces);
   $validValues = array_filter($allValues, function($x) {
     return is_numeric($x);
