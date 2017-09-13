@@ -11,12 +11,13 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 // The Shortcode
-function atf_spark_shortcode( $atts , $content = null ) {
+function atf_spark_shortcode( $atts ) {
 
 	// Attributes
 	$atts = shortcode_atts(
 		array(
 			'start' => '10',
+      'data' => '12,14,16,18',
 			'end' => '20',
       'type' => 'bar-medium',
 		),
@@ -25,7 +26,7 @@ function atf_spark_shortcode( $atts , $content = null ) {
 	);
 
   // Filter data
-  $noSpaces = str_replace(" ", "", $content);
+  $noSpaces = str_replace(" ", "", $atts['start']);
   $allValues = explode(",", $noSpaces);
   $validValues = array_filter($allValues, function($x) {
     return is_numeric($x);
