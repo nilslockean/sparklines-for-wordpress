@@ -33,7 +33,7 @@ function atf_spark_shortcode( $atts , $content = null ) {
   $dataString = implode(",", $validValues);
 
   // Return HTML
-	return '<span class="atf-spark--' . $atts['type'] . '">'
+	return '<span class="atf-spark atf-spark--' . $atts['type'] . '">'
     . $atts['start']
     . '{'
     . $dataString
@@ -42,5 +42,13 @@ function atf_spark_shortcode( $atts , $content = null ) {
     . '</span>';
 }
 add_shortcode( 'spark', 'atf_spark_shortcode' );
+
+function atf_spark_css() {
+  global $post;
+  if ( is_a( $post, 'WP_Post' ) && has_shortcode( $post->post_content, 'spark') ) {
+    wp_enqueue_style('atf-spark-css', plugin_dir_url( __FILE__ ) . '/atf-spark.css?ver=' . (string)rand());
+  }
+}
+add_action( 'wp_enqueue_scripts', 'atf_spark_css' )
 
 ?>
