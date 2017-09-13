@@ -12,7 +12,7 @@ The basic shortcode format is (with default vaules):
 | Name | Default | Description |
 | --- | --- | --- |
 | `start` | 10 | The starting point. Will be displayed before the chart. |
-| `data` | 12,14,16,18 | <div>Data points to be rendered inside the graph. <br>Anything that isn't a number will be filtered out (strings, spaces etc.).</div> |
+| `data` | 12,14,16,18 | <div>Data points to be rendered inside the graph. Anything that isn't a number will be filtered out (strings, spaces etc.).|
 | `end` | 20 | The ending point. Will be displayed after the chart. |
 | `type` | bar-medium | Type of chart to be used. See available fonts below. |
 
