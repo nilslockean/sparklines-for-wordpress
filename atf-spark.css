@@ -1,3 +1,10 @@
+.atf-spark {
+  font-variant-ligatures: contextual;
+  -moz-font-feature-settings: "calt";
+  -webkit-font-feature-settings: "calt";
+  font-feature-settings: "calt";
+}
+
 .atf-spark--bar-medium {
   font-family: 'spark-bar-medium';
 }
