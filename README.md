@@ -16,7 +16,7 @@ The basic shortcode format is (with default vaules):
 | `end` | 20 | The ending point. Will be displayed after the chart. |
 | `type` | bar-medium | Type of chart to be used. See available fonts below. |
 
-## Types of Charts
+### Types of Charts
 The sparkline charts can be displayed in any of the following types:
 
 - **Medium Bar** (`bar-medium`): ![Medium Bar Sparkline](./img/bar-medium.png)
